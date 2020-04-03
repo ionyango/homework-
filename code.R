@@ -1,2 +1,5 @@
-install.packages("tidyverse")
+install.packages(c("digest", "caTools", "bitops"))
 library(tidyverse)
+library(dslabs)
+library(digest)
+library(bitops)
